@@ -1,36 +1,55 @@
+// pages/api/products.js
 
-const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://afnanferdousi550:Ywzit1rlrzOkk2D8@cluster0.uko2k5j.mongodb.net/?retryWrites=true&w=majority";
+import { MongoClient, ServerApiVersion } from 'mongodb';
 
-// Create a MongoClient with a MongoClientOptions object to set the Stable API version
+const uri =
+    "mongodb+srv://afnanferdousi550:Ywzit1rlrzOkk2D8@cluster0.uko2k5j.mongodb.net/?retryWrites=true&w=majority";
+
 const client = new MongoClient(uri, {
     serverApi: {
         version: ServerApiVersion.v1,
         strict: true,
         deprecationErrors: true,
-    }
+    },
 });
 
-async function run(req, res) {
+export default async function handler(req, res) {
     try {
-        // Connect the client to the server	(optional starting in v4.7)
         await client.connect();
         const pcCollection = client.db("pc-builder").collection("pc");
 
-        if (req?.method === "GET") {
-            // Get all products
-            const query = {};
-            const cursor = pcCollection.find(query);
-            const result = await cursor.toArray();
-            res.send({
+        if (req.method === "GET") {
+            // Get query parameters from request
+            const { category, limit } = req.query;
+
+            // Prepare the filter based on the provided category
+            const query = category ? { category } : {};
+
+            // Get all PCs or a random subset based on the limit
+            let pcs;
+            if (limit) {
+                pcs = await pcCollection.aggregate([
+                    { $match: query },
+                    { $sample: { size: parseInt(limit, 10) } },
+                ]).toArray();
+            } else {
+                pcs = await pcCollection.find(query).toArray();
+            }
+
+            res.status(200).json({
                 status: 200,
                 message: "success",
-                data: result
-            })
-        } 
+                data: pcs,
+            });
+        }
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({
+            status: 500,
+            message: "Internal Server Error",
+            error: err.message,
+        });
     } finally {
-        // Ensures that the client will close when you finish/error
         await client.close();
     }
 }
-export default run;

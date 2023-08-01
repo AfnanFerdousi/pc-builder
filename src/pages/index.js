@@ -4,17 +4,23 @@ import MainLayout from '@/components/Layouts/MainLayout';
 import { useGetPCsQuery } from '@/redux/api/apiSlice';
 import Loader from '@/components/UI/Shared/Loader'
 import Head from 'next/head';
+import FeaturedProducts from '@/components/UI/FeaturedProducts';
 
 const Home = ({ allPc }) => {
   console.log(allPc)
   const { data, isLoading } = useGetPCsQuery()
-  if(isLoading) return <Loader/>
+
   return (
     <div>
       <Head>
         <title>Home</title>
       </Head>
       <Banner />
+      {
+        isLoading ? <Loader />
+          : <FeaturedProducts data={allPc?.data} />
+      }
+
 
     </div>
   );
@@ -29,8 +35,8 @@ Home.getLayout = function getLayout(page) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3000/api");
-  const data = res.json()
+  const res = await fetch("http://localhost:3000/api/pc?limit=6");
+  const data = await res.json()
   return {
     props: {
       allPc: data
