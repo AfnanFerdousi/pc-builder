@@ -1,6 +1,4 @@
-// pages/api/products.js
-
-import { MongoClient, ServerApiVersion } from 'mongodb';
+import { MongoClient, ServerApiVersion, ObjectId } from 'mongodb';
 
 const uri =
     "mongodb+srv://afnanferdousi550:Ywzit1rlrzOkk2D8@cluster0.uko2k5j.mongodb.net/?retryWrites=true&w=majority";
@@ -19,8 +17,23 @@ export default async function handler(req, res) {
         const pcCollection = client.db("pc-builder").collection("pc");
 
         if (req.method === "GET") {
-            // Get query parameters from request
-            const { category, limit } = req.query;
+            const { category, limit, id } = req.query;
+            if (id) {
+                const pc = await pcCollection.findOne({ _id: new ObjectId(id) });
+                if (!pc) {
+                    return res.status(404).json({
+                        status: 404,
+                        message: "PC not found",
+                    });
+                }
+                return res.status(200).json({
+                    status: 200,
+                    message: "success",
+                    data: pc,
+                });
+            }
+
+            
 
             // Prepare the filter based on the provided category
             const query = category ? { category } : {};

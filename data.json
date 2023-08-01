@@ -5,7 +5,33 @@
         "category": "Processor",
         "price": 7000,
         "status": "In Stock",
-        "rating": 4
+        "rating": 4,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "Intel Pentium Gold G6405 Coffee Lake Processor",
@@ -13,7 +39,33 @@
         "category": "Processor",
         "price": 7000,
         "status": "In Stock",
-        "rating": 4
+        "rating": 4,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "Intel 10th Gen Core i3 10100F Processor",
@@ -21,7 +73,33 @@
         "category": "Processor",
         "price": 8200,
         "status": "In Stock",
-        "rating": 4
+        "rating": 4,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "AMD Ryzen 3 4100 Processor",
@@ -29,7 +107,33 @@
         "category": "Processor",
         "price": 10300,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "MSI A320M-A Pro AMD Micro-ATX Motherboard",
@@ -37,7 +141,33 @@
         "category": "Motherboard",
         "price": 7000,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard",
@@ -45,7 +175,33 @@
         "category": "Motherboard",
         "price": 8200,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "MSI A520M-A Pro AM4 AMD Micro-ATX Motherboard",
@@ -53,7 +209,33 @@
         "category": "Motherboard",
         "price": 8500,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "BIOSTAR B550MH DDR4 AMD AM4 Micro ATX Motherboard",
@@ -61,7 +243,33 @@
         "category": "Motherboard",
         "price": 9000,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "Transcend JetRam 4GB DDR4 3200MHz U-DIMM Desktop RAM",
@@ -69,7 +277,33 @@
         "category": "RAM",
         "price": 9000,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "BIOSTAR B550MH DDR4 AMD AM4 Micro ATX RAM",
@@ -77,7 +311,33 @@
         "category": "RAM",
         "price": 9000,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "BIOSTAR B550MH DDR4 AMD AM4 Micro ATX RAM",
@@ -85,7 +345,33 @@
         "category": "RAM",
         "price": 9000,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "BIOSTAR B550MH DDR4 AMD AM4 Micro ATX RAM",
@@ -93,7 +379,33 @@
         "category": "RAM",
         "price": 9000,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "OVO OPS-P4 450W ATX Power Supply Unit",
@@ -101,7 +413,33 @@
         "category": "Power Supply Unit",
         "price": 9000,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },    
     {
         "name": "Revenger VP 350 Watt Power Supply Unit",
@@ -109,7 +447,33 @@
         "category": "Power Supply Unit",
         "price": 9000,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "Power Train PT-P200B 200W Power Supply Unit",
@@ -117,7 +481,33 @@
         "category": "Power Supply Unit",
         "price": 9000,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "Gamdias AURA GP450 450W Power Supply Unit",
@@ -125,7 +515,33 @@
         "category": "Power Supply Unit",
         "price": 9000,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "PNY CS900 120GB 2.5 SATA III Internal SSD",
@@ -133,7 +549,33 @@
         "category": "Storage Device",
         "price": 1450,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "Gigabyte 120GB Solid State Drive (SSD)",
@@ -141,7 +583,33 @@
         "category": "Storage Device",
         "price": 1325,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "Netac SA500 120GB 2.5-inch SATAIII SSD",
@@ -149,7 +617,33 @@
         "category": "Storage Device",
         "price": 1299,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "Dahua C800 120GB 2.5 SATA SSD",
@@ -157,7 +651,33 @@
         "category": "Storage Device",
         "price": 1299,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "Enter E-MO-A01 19-inch HD LED Backlit Monitor",
@@ -165,7 +685,33 @@
         "category": "Monitor",
         "price": 7220,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "PHILIPS 18.5193V5LSB2 LED MONITOR",
@@ -173,7 +719,33 @@
         "category": "Monitor",
         "price": 8500,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "Lenovo D19-10 18.5 Inch HD HDMI VGA Monitor",
@@ -181,7 +753,33 @@
         "category": "Monitor",
         "price": 8500,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "Univision LED350 260Hz AH FHD Monitor",
@@ -189,7 +787,33 @@
         "category": "Monitor",
         "price": 7500,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "Logitech K120 Usb Keyboard With Bangla Black (920-008363)",
@@ -197,7 +821,33 @@
         "category": "Others",
         "price": 7500,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "Meetion MT-K9320 Waterproof Backlit Gaming Keyboard",
@@ -205,7 +855,33 @@
         "category": "Others",
         "price": 800,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "PROLiNK PMC1007 USB Optical Mouse",
@@ -213,7 +889,33 @@
         "category": "Others",
         "price": 399,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     },
     {
         "name": "https://www.startech.com.bd/image/cache/catalog/mouse/prolink/pmo630u/pmo630u-dark-blue-01-228x228.webp",
@@ -221,6 +923,32 @@
         "category": "Others",
         "price": 399,
         "status": "In Stock",
-        "rating": 5
+        "rating": 5,
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like",
+        "avgRate": 4,
+        "features": {
+            "Brand": "Intel",
+            "Model": "200 GE AM4",
+            "Specification": "ATX",
+            "Voltage": "50 - 6-Hz",
+            "Port": "HDMI",
+            "Resolution": "4000K",
+            "Type": "Computer Part"
+        },
+        "reviews":[
+            {
+                "name": "Afnan",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Voldemort",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            },
+                        {
+                "name": "Telapokaaaaaa",
+                "review": "The part could be good could be bad, I'm leaving the choice to you. 😁. This is the only Comment Imma write and Imma use it everywhere 😎. These emojis do look ngl. Anyway BYEEE"
+            }
+        ]
+
     }
 ]
