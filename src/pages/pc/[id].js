@@ -17,8 +17,8 @@ const Details = ({ singleProduct }) => {
             </Head>
 
             <div className="hero min-h-screen">
-                <div className="hero-content flex-col lg:flex-row">
-                    <Image src={product.img} alt={product.name} width={300} height={300} />
+                <div className="hero-content flex-col lg:flex-row lg:items-center lg:justify-center">
+                    <Image src={product.img} alt={product.name} width={400} height={300} />
                     <div>
                        
                         <div className='flex gap-x-4 mb-4'>
@@ -27,7 +27,8 @@ const Details = ({ singleProduct }) => {
                         </div>
                         <h2 className='text-3xl font-bold'>{product.name}</h2>
                         <h2 className='text-start text-4xl font-semibold text-[#df1abea1]'>${product.price}</h2>
-                        <div className='flex items-center gap-x-6'>
+                        {/* rating */}
+                        <div className='flex items-center  gap-x-6'>
                             <div className='flex items-center gap-x-4'>
                                 <h2 className='pt-4 font-semibold'>Individual:</h2>
                                 <div className='flex gap-x-[3px] mt-4 items-center'>
@@ -44,7 +45,31 @@ const Details = ({ singleProduct }) => {
                                     ))}
                                 </div>
                             </div>
-                      </div>
+                        </div>
+                        
+                        <div className='p-5 mt-5 w-full border border-[#333] rounded-lg'>
+                            {Object.keys(product.features).map((key) => (
+                                <p key={key}>
+                                    <strong className='mr-4'>{key}: </strong>
+                                    {product.features[key]}
+                                </p>
+                            ))}
+                            
+                            <p className='text-lg font-medium text-justify mt-4'>{product.desc}</p>
+                        </div>
+                       
+                        {/* reviews */}
+                        <div>
+                            <h2 className='text-2xl font-semibold text-[#df1abea1] py-8'>##What Our Customers Say</h2>
+                            <div>
+                                {product.reviews.map((review) => (
+                                    <div key={review._id} className='border border-[#dd90d0a1] rounded-md p-4 my-4'>
+                                        <h2 className='font-bold '>@{review.name}</h2>
+                                        <p className='italic pt-2'>{review.review}</p>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
 
 
                     </div>
