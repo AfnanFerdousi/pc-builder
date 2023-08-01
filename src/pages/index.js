@@ -5,6 +5,7 @@ import { useGetPCsQuery } from '@/redux/api/apiSlice';
 import Loader from '@/components/UI/Shared/Loader'
 import Head from 'next/head';
 import FeaturedProducts from '@/components/UI/FeaturedProducts';
+import FeaturedCategories from '@/components/UI/FeaturedCategories';
 
 const Home = ({ allPc }) => {
   console.log(allPc)
@@ -20,7 +21,10 @@ const Home = ({ allPc }) => {
         isLoading ? <Loader />
           : <FeaturedProducts data={allPc?.data} />
       }
-
+      {
+        isLoading ? <Loader />
+          : <FeaturedCategories/>
+      }
 
     </div>
   );

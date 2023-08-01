@@ -8,7 +8,7 @@ const PcCard = ({ pc }) => {
     const ratingArray = Array.from({ length: pc.rating });
 
     return (
-        <div className='p-5  flex flex-col  bg-[#333] rounded-lg '>
+        <div className='p-5  flex flex-col  bg-[#202020] rounded-lg '>
             <Image className="mx-auto" src={pc?.img} alt={pc.name} width={200} height={100} />
             <h2 className='text-center text-xl font-bold text-[#fff] mt-8'>{pc.name}</h2>
             <div className='text-start gap-x-8 mt-4 border p-5 rounded-md border-[#918d8d]'>
