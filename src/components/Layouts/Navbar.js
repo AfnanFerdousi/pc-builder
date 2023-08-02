@@ -1,8 +1,9 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import React from 'react';
 
 const Navbar = () => {
-
+    const navigate = useRouter();
     const categories = [
         "Processor",
         "Motherboard",
@@ -18,7 +19,7 @@ const Navbar = () => {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
-                    <li><Link href="/pc/buildPc">PC Builder</Link></li>
+                    <li><button onClick={() => navigate.push('/pc/buildPc')}>PC Builder</button></li>
                     <li>
                         <details>
                             <summary>
@@ -27,7 +28,7 @@ const Navbar = () => {
                             <ul className="p-2 bg-base-100 ">
                                 {categories.map((category) => (
                                     <li className='w-full' key={category}>
-                                        <Link href={`/category/${category}`}>{category}</Link>
+                                        <button onClick={() => navigate.push(`/category/${category}`)}>{category}</button>
                                     </li>
                                 ))}
                             </ul>

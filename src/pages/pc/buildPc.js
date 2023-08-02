@@ -5,7 +5,7 @@ import MainLayout from '@/components/Layouts/MainLayout';
 import { useAppSelector } from '../../redux/hooks';
 
 const BuildPc = () => {
-    const selectedProducts = useAppSelector((state) => state.products);
+    const selectedProducts = useAppSelector((state) => state);
     const categories = [
         "Processor",
         "Motherboard",
