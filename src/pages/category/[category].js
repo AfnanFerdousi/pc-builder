@@ -1,22 +1,28 @@
 import React from 'react';
 import MainLayout from '@/components/Layouts/MainLayout';
 import PcCard from '@/components/UI/PcCard';
+import Head from 'next/head';
 
 const CategorizedProducts = ({ categoryProducts }) => {
     
     console.log(categoryProducts)
     const products = categoryProducts?.data
     return (
-        <div className='px-12 my-12'>
-            <h2 className='text-2xl font-semibold text-[#df1abea1] pb-8'>Showing products according to category: </h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center mx-auto'>
-                {
-                    products?.map((product) => (
-                        <PcCard pc={product} key={product._id} />
-                    ))
-                }
+        <div>
+            <Head>
+                <title>Categorized Products</title>
+            </Head>
+            <div className='px-12 my-12'>
+                <h2 className='text-2xl font-semibold text-[#df1abea1] pb-8'>##Showing products according to category: </h2>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center mx-auto'>
+                    {
+                        products?.map((product) => (
+                            <PcCard pc={product} key={product._id} />
+                        ))
+                    }
+                </div>
+
             </div>
-            
         </div>
     );
 };
