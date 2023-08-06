@@ -6,8 +6,15 @@ const productApi = api.injectEndpoints(
             getPCs: builder.query({
                 query: () => '/pc',
             }),
+            postPc: builder.mutation({
+                query: (body) => ({
+                    url: '/buildpc',
+                    method: 'POST',
+                    body,
+                }),
+            })
     }
 )
     });
 
-export const { useGetPCsQuery } = productApi
+export const { useGetPCsQuery, usePostPcMutation } = productApi

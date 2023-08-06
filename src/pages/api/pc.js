@@ -15,6 +15,7 @@ export default async function handler(req, res) {
     try {
         await client.connect();
         const pcCollection = client.db("pc-builder").collection("pc");
+        const buildedPCCollection = client.db("pc-builder").collection("builded_pc");
 
         if (req.method === "GET") {
             const { category, limit, id } = req.query;
@@ -53,6 +54,26 @@ export default async function handler(req, res) {
                 status: 200,
                 message: "success",
                 data: pcs,
+            });
+        }
+        if(req.method === "POST") {
+            const { username, selectedProducts, totalCost } = req.body;
+
+            // Prepare the document object to be inserted in the `builded_pc` collection
+            const buildedPCData = {
+                username,
+                selectedProducts,
+                totalCost,
+                createdAt: new Date(),
+            };
+
+            // Insert the document into the `builded_pc` collection
+            const result = await buildedPCCollection.insertOne(buildedPCData);
+
+            res.status(200).json({
+                status: 200,
+                message: 'Data successfully posted!',
+                insertedId: result.insertedId,
             });
         }
     } catch (err) {
