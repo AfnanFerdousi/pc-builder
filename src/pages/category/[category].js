@@ -33,7 +33,7 @@ CategorizedProducts.getLayout = function getLayout(page) {
     return <MainLayout> {page} </MainLayout>;
 }
 
-export const getStaticProps = async (context) => {
+export const getServerSideProps = async (context) => {
     if (typeof window === 'undefined') {
         return {
             props: {
@@ -59,18 +59,18 @@ export const getStaticProps = async (context) => {
 };
 
 // Implement getStaticPaths to specify all possible paths for 'id'
-export const getStaticPaths = async () => {
-    // Fetch the list of all products or PC IDs from your API
-    const apiUrl = "https://pc-builder-afnanferdousi.vercel.app/api/pc"
+// export const getStaticPaths = async () => {
+//     // Fetch the list of all products or PC IDs from your API
+//     const apiUrl = "https://pc-builder-afnanferdousi.vercel.app/api/pc"
 
-    const res = await fetch(apiUrl);
-    const data = await res.json();
-    const paths = data.data.map((product) => ({
-        params: { category: product.category }, // Assuming 'product._id' is the ID of each product
-    }));
+//     const res = await fetch(apiUrl);
+//     const data = await res.json();
+//     const paths = data.data.map((product) => ({
+//         params: { category: product.category }, // Assuming 'product._id' is the ID of each product
+//     }));
 
-    return {
-        paths,
-        fallback: false,
-    };
-};
+//     return {
+//         paths,
+//         fallback: false,
+//     };
+// };

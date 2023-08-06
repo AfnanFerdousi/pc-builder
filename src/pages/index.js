@@ -38,7 +38,7 @@ Home.getLayout = function getLayout(page) {
   return <MainLayout> {page} </MainLayout>;
 }
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   if (typeof window === 'undefined') {
     return {
       props: {

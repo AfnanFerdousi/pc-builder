@@ -39,6 +39,7 @@ const BuildPc = () => {
                 username,
                 totalCost,
             });
+            alert("Successfully builded pc")
 
             // Handle the response here if needed
             console.log('Server Response:', response.data);
