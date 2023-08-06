@@ -23,7 +23,7 @@ const Home = ({ allPc }) => {
       }
       {
         isLoading ? <Loader />
-          : <FeaturedCategories/>
+          : <FeaturedCategories />
       }
 
     </div>
@@ -39,7 +39,13 @@ Home.getLayout = function getLayout(page) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`${process.env.API_URL}/?limit=6"`);
+  if( typeof window === 'undefined') {
+    return {
+      props: {
+        allPc: [],
+    } };
+  }
+  const res = await fetch(`http://localhost:3000/api/pc/?limit=6"`);
   const data = await res.json()
   return {
     props: {

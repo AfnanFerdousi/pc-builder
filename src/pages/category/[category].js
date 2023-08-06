@@ -4,7 +4,7 @@ import PcCard from '@/components/UI/PcCard';
 import Head from 'next/head';
 
 const CategorizedProducts = ({ categoryProducts }) => {
-    
+
     console.log(categoryProducts)
     const products = categoryProducts?.data
     return (
@@ -34,10 +34,17 @@ CategorizedProducts.getLayout = function getLayout(page) {
 }
 
 export const getStaticProps = async (context) => {
+    if (typeof window === 'undefined') {
+        return {
+            props: {
+                categoryProducts: [],
+        } };
+        
+    }
     const { params } = context;
     const { category } = params;
 
-    const apiUrl = `${process.env.API_URL}?category=${category}`;
+    const apiUrl = `http://localhost:3000/api/pc?category=${category}`;
 
     const res = await fetch(apiUrl);
     const data = await res.json();
@@ -53,7 +60,7 @@ export const getStaticProps = async (context) => {
 // Implement getStaticPaths to specify all possible paths for 'id'
 export const getStaticPaths = async () => {
     // Fetch the list of all products or PC IDs from your API
-    const apiUrl = process.env.API_URL // Update the URL if needed
+    const apiUrl = "http://localhost:3000/api/pc"
 
     const res = await fetch(apiUrl);
     const data = await res.json();

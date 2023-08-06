@@ -5,7 +5,6 @@ import Image from 'next/image';
 import { BsStarFill } from 'react-icons/bs';
 
 const Details = ({ singleProduct }) => {
-    console.log("singleeeeeeeee", singleProduct);
     const product = singleProduct?.data
     const indRate = Array.from({ length: product.rating });
     const avgRate = Array.from({ length: product.avgRate });
@@ -20,7 +19,7 @@ const Details = ({ singleProduct }) => {
                 <div className="hero-content flex-col lg:flex-row lg:items-center lg:justify-center">
                     <Image src={product.img} alt={product.name} width={400} height={300} />
                     <div>
-                       
+
                         <div className='flex gap-x-4 mb-4'>
                             <div className="badge badge-primary text-white font-semibold">{product.category}</div>
                             <div className="badge badge-secondary text-white font-semibold">{product.status}</div>
@@ -46,7 +45,7 @@ const Details = ({ singleProduct }) => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className='p-5 mt-5 w-full border border-[#333] rounded-lg'>
                             {Object.keys(product.features).map((key) => (
                                 <p key={key}>
@@ -54,10 +53,10 @@ const Details = ({ singleProduct }) => {
                                     {product.features[key]}
                                 </p>
                             ))}
-                            
+
                             <p className='text-lg font-medium text-justify mt-4'>{product.desc}</p>
                         </div>
-                       
+
                         {/* reviews */}
                         <div>
                             <h2 className='text-2xl font-semibold text-[#df1abea1] py-8'>##What Our Customers Say</h2>
@@ -86,10 +85,16 @@ Details.getLayout = function getLayout(page) {
 }
 
 export const getStaticProps = async (context) => {
+    if (typeof window === 'undefined') {
+        return {
+            props: {
+                singleProduct: [],
+        } };        
+    }
     const { params } = context;
     const { id } = params;
 
-    const apiUrl = `${process.env.API_URL}?id=${id}`;
+    const apiUrl = `http://localhost:3000/api/pc?id=${id}`;
 
     const res = await fetch(apiUrl);
     const data = await res.json();
@@ -102,7 +107,7 @@ export const getStaticProps = async (context) => {
     };
 };
 
-// Implement getStaticPaths to specify all possible paths for 'id'
+// // Implement getStaticPaths to specify all possible paths for 'id'
 export const getStaticPaths = async () => {
     // Fetch the list of all products or PC IDs from your API
     const apiUrl = process.env.API_URL // Update the URL if needed
