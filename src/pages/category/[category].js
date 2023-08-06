@@ -38,13 +38,14 @@ export const getStaticProps = async (context) => {
         return {
             props: {
                 categoryProducts: [],
-        } };
-        
+            }
+        };
+
     }
     const { params } = context;
     const { category } = params;
 
-    const apiUrl = `http://localhost:3000/api/pc?category=${category}`;
+    const apiUrl = `https://pc-builder-afnanferdousi.vercel.app/api/pc?category=${category}`;
 
     const res = await fetch(apiUrl);
     const data = await res.json();
@@ -60,7 +61,7 @@ export const getStaticProps = async (context) => {
 // Implement getStaticPaths to specify all possible paths for 'id'
 export const getStaticPaths = async () => {
     // Fetch the list of all products or PC IDs from your API
-    const apiUrl = "http://localhost:3000/api/pc"
+    const apiUrl = "https://pc-builder-afnanferdousi.vercel.app/api/pc"
 
     const res = await fetch(apiUrl);
     const data = await res.json();

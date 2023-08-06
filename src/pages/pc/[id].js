@@ -94,7 +94,7 @@ export const getStaticProps = async (context) => {
     const { params } = context;
     const { id } = params;
 
-    const apiUrl = `http://localhost:3000/api/pc?id=${id}`;
+    const apiUrl = `https://pc-builder-afnanferdousi.vercel.app/api/pc?id=${id}`;
 
     const res = await fetch(apiUrl);
     const data = await res.json();
