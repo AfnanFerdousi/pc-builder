@@ -34,7 +34,7 @@ const BuildPc = () => {
 
         // Perform the form submission using Axios
         try {
-            const response = await axios.post('http://localhost:5000/addBuildedPc', {
+            const response = await axios.post('https://pc-builder-server-orpin.vercel.app/addBuildedPc', {
                 selectedProducts: selectedProductsArray,
                 username,
                 totalCost,
