@@ -38,15 +38,8 @@ Home.getLayout = function getLayout(page) {
   return <MainLayout> {page} </MainLayout>;
 }
 
-export const getServerSideProps = async () => {
-  if (typeof window === 'undefined') {
-    return {
-      props: {
-        allPc: [],
-      }
-    };
-  }
-  const res = await fetch(`https://pc-builder-afnanferdousi.vercel.app/api/pc/?limit=6"`);
+export const getStaticProps = async () => {
+  const res = await fetch(`https://pc-builder-afnanferdousi.vercel.app/api/pc?limit=6`);
   const data = await res.json()
   return {
     props: {

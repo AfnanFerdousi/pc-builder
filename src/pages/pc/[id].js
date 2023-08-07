@@ -84,13 +84,7 @@ Details.getLayout = function getLayout(page) {
     return <MainLayout> {page} </MainLayout>;
 }
 
-export const getServerSideProps = async (context) => {
-    if (typeof window === 'undefined') {
-        return {
-            props: {
-                singleProduct: [],
-        } };        
-    }
+export const getStaticProps = async (context) => {
     const { params } = context;
     const { id } = params;
 
@@ -107,19 +101,18 @@ export const getServerSideProps = async (context) => {
     };
 };
 
-// // Implement getStaticPaths to specify all possible paths for 'id'
-// export const getStaticPaths = async () => {
-//     // Fetch the list of all products or PC IDs from your API
-//     const apiUrl = process.env.API_URL // Update the URL if needed
+export const getStaticPaths = async () => {
+    // Fetch the list of all products or PC IDs from your API
+    const apiUrl = process.env.API_URL // Update the URL if needed
 
-//     const res = await fetch(apiUrl);
-//     const data = await res.json();
-//     const paths = data.data.map((product) => ({
-//         params: { id: product._id }, // Assuming 'product._id' is the ID of each product
-//     }));
+    const res = await fetch(apiUrl);
+    const data = await res.json();
+    const paths = data.data.map((product) => ({
+        params: { id: product._id }, // Assuming 'product._id' is the ID of each product
+    }));
 
-//     return {
-//         paths,
-//         fallback: false,
-//     };
-// };
+    return {
+        paths,
+        fallback: false,
+    };
+};

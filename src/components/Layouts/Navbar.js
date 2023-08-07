@@ -19,7 +19,9 @@ const Navbar = () => {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
-                    <li><button onClick={() => navigate.push('/pc/buildPc')}>PC Builder</button></li>
+                    <li>
+                        <Link href="/">PC Builder</Link>
+                    </li>
                     <li>
                         <details>
                             <summary>
@@ -28,7 +30,7 @@ const Navbar = () => {
                             <ul className="p-2 bg-base-100 ">
                                 {categories.map((category) => (
                                     <li className='w-full' key={category}>
-                                        <button onClick={() => navigate.push(`/category/${category}`)}>{category}</button>
+                                        <Link href={`/category/${category}`}>{category}</Link>
                                     </li>
                                 ))}
                             </ul>
