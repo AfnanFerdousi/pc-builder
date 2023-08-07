@@ -44,7 +44,6 @@ export const getStaticProps = async () => {
   return {
     props: {
       allPc: data
-    },
-    revalidate: 10,
+    }
   }
 }
