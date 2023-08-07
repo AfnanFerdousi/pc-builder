@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
                     <li>
-                        <Link href="/pc/buildpc">PC Builder</Link>
+                        <Link href="/pc/buildPc">PC Builder</Link>
                     </li>
                     <li>
                         <details>
