@@ -15,7 +15,9 @@ const Login = () => {
                     <div className="card flex-shrink-0 w-full shadow-2xl bg-base-100">
                         <div className="card-body">
                             <button
-                                onClick={() => signIn('github')}
+                                onClick={() => signIn('github', {
+                                    callbackUrl: ""
+                                })}
                                 className="mb-6 flex items-center text-xl gap-x-5 btn btn-outline btn-primary">Login with github <BsGithub /></button>
                             <div className="form-control">
 
