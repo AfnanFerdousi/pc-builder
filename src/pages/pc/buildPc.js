@@ -98,3 +98,6 @@ const BuildPc = () => {
 };
 
 export default BuildPc;
+BuildPc.getLayout = function getLayout(page) {
+    return <MainLayout> {page} </MainLayout>;
+}
