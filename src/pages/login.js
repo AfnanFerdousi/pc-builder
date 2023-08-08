@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsGithub } from 'react-icons/bs';
+import { BsGithub,BsGoogle } from 'react-icons/bs';
 import {signIn} from 'next-auth/react'
 import Head from 'next/head';
 import MainLayout from '@/components/Layouts/MainLayout';
@@ -15,9 +15,10 @@ const Login = () => {
                     <div className="card flex-shrink-0 w-full shadow-2xl bg-base-100">
                         <div className="card-body">
                             <button
-                                onClick={() => signIn('github', {
-                                    callbackUrl: ""
-                                })}
+                                onClick={() => signIn("google")}
+                                className="mb-6 flex items-center text-xl gap-x-5 btn btn-outline btn-orange-500">Login with Google <BsGoogle /></button>
+                            <button
+                                onClick={() => signIn('github')}
                                 className="mb-6 flex items-center text-xl gap-x-5 btn btn-outline btn-primary">Login with github <BsGithub /></button>
                             <div className="form-control">
 
